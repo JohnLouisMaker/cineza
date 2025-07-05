@@ -67,7 +67,7 @@ export default function Home() {
     <div className="bg-zinc-950 min-h-screen max-w-full">
       <Header setSearch={setSearch} />
 
-      <main className="max-w-7xl mt-14 mx-auto px-6 py-10 space-y-12 animate-fade-in">
+      <main className="max-w-7xl mt-7 sm:mt-14 mx-auto px-6 py-10 space-y-12 animate-fade-in">
         {searchResults.length > 0 ? (
           <Section
             title={`Resultados para "${search}"`}

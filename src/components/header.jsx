@@ -71,7 +71,7 @@ export default function Header({ setSearch }) {
     <>
 
       <header
-        className={`bg-zinc-900 fixed top-0 left-0 w-full z-50 shadow-lg shadow-black transition-transform duration-300 ${
+        className={`bg-zinc-900 fixed top-0 left-0 w-full z-50 shadow-lg  transition-transform duration-300 ${
           show ? "translate-y-0" : "-translate-y-full"
         }`}
       >
