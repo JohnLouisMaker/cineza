@@ -1,12 +1,30 @@
-# React + Vite
+# Cineza
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TMDB](https://img.shields.io/badge/TMDB-01D277?style=for-the-badge&logo=themoviedatabase&logoColor=white)
 
-Currently, two official plugins are available:
+Aplicação web para busca de filmes, consumindo dados em tempo real da API pública do TMDB (The Movie Database).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Demo:** https://cineza-beta.vercel.app/
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Busca de filmes por título
+- Exibição de resultados com dados vindos diretamente da API do TMDB (pôster, título, avaliação, etc.)
+
+## Tecnologias
+
+- React
+- Vite
+- API TMDB
+
+## Como rodar localmente
+
+```bash
+git clone https://github.com/JohnLouisMaker/cineza.git
+cd cineza
+npm install
+```
+
+Crie um arquivo `.env` na raiz do projeto com sua chave da API do TMDB:
